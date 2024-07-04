@@ -17,11 +17,11 @@ devDependencies:
     specifier: ^1.8.1
     version: 1.8.3
   '@rsbuild/core':
-    specifier: 1.0.0-alpha.0
-    version: 1.0.0-alpha.0
+    specifier: 1.0.0-alpha.2
+    version: 1.0.0-alpha.2
   '@rsbuild/plugin-react':
-    specifier: 1.0.0-alpha.0
-    version: 1.0.0-alpha.0(@rsbuild/core@1.0.0-alpha.0)
+    specifier: 1.0.0-alpha.2
+    version: 1.0.0-alpha.2(@rsbuild/core@1.0.0-alpha.2)
   '@types/react':
     specifier: ^18.3.3
     version: 18.3.3
@@ -146,12 +146,12 @@ packages:
       '@module-federation/sdk': 0.1.6
     dev: true
 
-  /@rsbuild/core@1.0.0-alpha.0:
-    resolution: {integrity: sha512-GVfPf7Vi2XigAxz/X0ayoeCvTqvAZ6VltH4Xxqmcxd3tscu/MW1m2uXqsK58L27m47Y7iKpPlA1EahOs3cnKGg==}
+  /@rsbuild/core@1.0.0-alpha.2:
+    resolution: {integrity: sha512-KX6xGxM6wMgGSzQmHlj0q55Ni6gFzNoUDb3JKNRs9sIPn3U6E/zjyNZmF1IOHElkB+ebTo9f11dhQxzKdccAiQ==}
     engines: {node: '>=16.7.0'}
     hasBin: true
     dependencies:
-      '@rsbuild/shared': 1.0.0-alpha.0(@swc/helpers@0.5.11)
+      '@rsbuild/shared': 1.0.0-alpha.2(@swc/helpers@0.5.11)
       '@rspack/core': 1.0.0-alpha.0(@swc/helpers@0.5.11)
       '@swc/helpers': 0.5.11
       core-js: 3.37.1
@@ -159,21 +159,21 @@ packages:
       postcss: 8.4.39
     dev: true
 
-  /@rsbuild/plugin-react@1.0.0-alpha.0(@rsbuild/core@1.0.0-alpha.0):
-    resolution: {integrity: sha512-NZqlYEVdNCxc/8QF07m6qmN9diFS6ilvT2PeQDjcMy+Rr0CheEvn+4L1+0QZU4Zf03PvvkgWl8MWAsS1S5Uf5Q==}
+  /@rsbuild/plugin-react@1.0.0-alpha.2(@rsbuild/core@1.0.0-alpha.2):
+    resolution: {integrity: sha512-qp6p2SzeDNu5tb84f/D+75n/rabMobfecyUd3cFfD9r98PUfpv6e5k2jfu6L8P3IPZkw6fzGggBb4Q/yEjaydA==}
     peerDependencies:
-      '@rsbuild/core': ^1.0.0-alpha.0
+      '@rsbuild/core': ^1.0.0-alpha.2
     dependencies:
-      '@rsbuild/core': 1.0.0-alpha.0
-      '@rsbuild/shared': 1.0.0-alpha.0(@swc/helpers@0.5.11)
+      '@rsbuild/core': 1.0.0-alpha.2
+      '@rsbuild/shared': 1.0.0-alpha.2(@swc/helpers@0.5.11)
       '@rspack/plugin-react-refresh': 1.0.0-alpha.0(react-refresh@0.14.2)
       react-refresh: 0.14.2
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
 
-  /@rsbuild/shared@1.0.0-alpha.0(@swc/helpers@0.5.11):
-    resolution: {integrity: sha512-pv+OaUzazvIpNdZylpjP39KUOMWku7AdyWN8kiSKEJchUO0HjpoxKg3ym2FMDODpOZS0j0ytpDzi3aF3d/lc8g==}
+  /@rsbuild/shared@1.0.0-alpha.2(@swc/helpers@0.5.11):
+    resolution: {integrity: sha512-vbyLPitUDY5q4DcYvs2v3lCfFiwiWqWlz6kRjPdm06k779zkMybuyEnKVg3jrlQdYPQy8Mq63P7EYs+5nDoKbg==}
     dependencies:
       '@rspack/core': 1.0.0-alpha.0(@swc/helpers@0.5.11)
       caniuse-lite: 1.0.30001640
